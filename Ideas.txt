@@ -1,0 +1,24 @@
+Weather app
+- pull data from spot and other websites to display precip and gauge data in one spot
+
+Spotify widget
+- little thing that stays in the foreground of screen and has play/pause and skip
+
+Pomodoro app
+- keeps track of tasks and breaks
+
+Recipe finder
+- Takes in ingredients and type of meal and finds recipe based on that
+
+Flashlight app 
+- For my stupid phone whose flashlight doesn't work
+
+Mood tracker
+- uses emoji or word to describe mood (morning and eve) 
+- maybe 1 good and bad of what happened that day one thing you would change which comes up the next day
+
+Joke generator
+-uses joke api or other
+- could be hilarious to send a shit joke to someone like a mini game/ text thing
+
+Wordle solver
