@@ -28,6 +28,7 @@ body {
     color: #555;
     text-align: center;
     margin-bottom: 20px; /* Add margin to separate from the button */
+    margin-top: -200px;
 }
 
 /* Button styling */
@@ -47,6 +48,7 @@ body {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;

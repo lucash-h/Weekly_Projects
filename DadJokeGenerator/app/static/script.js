@@ -1,8 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
     const jokeBtn = document.getElementById('jokeBtn');
     const jokeDisplay = document.getElementById('jokeDisplay');
+    const jokeSound = document.getElementById('jokeSound');
 
-    jokeBtn.addEventListener('click', fetchJoke);
+    jokeBtn.addEventListener('click', () => {
+        fetchJoke();
+        jokeSound.play();
+    });
+    
+        
 
     function fetchJoke() {
         const apiKey = 'b3KsamT26hPkBT+YEGT8dQ==2dG7ozPtA79GSZ3U'; // Replace with your actual API key
