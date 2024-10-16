@@ -1,0 +1,10 @@
+Can just work in the command line as a local program. 
+
+Pulls words from an api i guess. 
+
+Idea would be to start with a specific word with most common vowels. Could probably research that and find some stats
+Then next two would be to cover the word, could even come up with algorithm on paper and prove that it will solve it every time, 
+
+cause you could definitely get it to solve it most tries
+
+go through extracted_answers and compile instances of each letter
