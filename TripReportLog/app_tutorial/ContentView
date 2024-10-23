@@ -1,0 +1,36 @@
+import SwiftUi
+
+struct ContentView: View {
+    var body: some View {
+
+        ZStack {
+
+            Color(.black)
+                .ignotreSafeArea(.all)
+
+            VStack{
+
+        
+                Image("IMAGE NAME")
+                    .resizable()
+                    .cornerRadius(15)
+                    .asPectRatio(contentMode: .fit)
+                    .padding(.all)
+                Text("SUPER FUN PLACEHOLDER WOOOO")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .fontColor(.white)
+            }
+        }
+        
+
+        
+    }
+}
+
+struct ContentView_Previews: 
+    PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
