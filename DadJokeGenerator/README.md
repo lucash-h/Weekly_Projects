@@ -1,6 +1,6 @@
 # Dad Joke Generator
 
-Welcome to the Dad Joke Generator! This project is designed to bring a smile to your face by generating random dad jokes.
+Welcome to the Dad Joke Generator! I created this project because it seemed funny and I want to learn more about web development.
 
 ## Features
 

@@ -8,3 +8,27 @@ Then next two would be to cover the word, could even come up with algorithm on p
 cause you could definitely get it to solve it most tries
 
 go through extracted_answers and compile instances of each letter
+
+now found first possible answer  
+
+use user input to figure out state (ie if each letter is green, yellow or grey)
+
+from there, find letters that correspond to that i guess
+if its green its left in
+if its yellow swap its place
+if its grey remove it and find words that match new pattern
+
+or could do next 5 letters with a word for that
+then use the first two guesses for the top 10 most common letters
+
+actually instead if there are any green or yellow chars, set those aside
+and from the x rests find x chars from top 5 + x instances of char happening.
+
+maybe this is the wrong approach because the more letter instances are common the less likely they are to be picked again
+
+/*******************************************
+@todo
+*******************************************/
+create an actual game scenario to test the program
+get a word from extracted_answers
+guess with word one and output a table with each letter position and if its correct, misplaced or wrong

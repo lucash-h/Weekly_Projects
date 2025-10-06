@@ -6,7 +6,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const API_KEY = process.env.yourAPI_KEY;
+const API_KEY = process.env.yourAPI_KEY; // Ensure this matches the key in your .env file
 
 app.use(express.static(path.join(__dirname, 'app')));
 

@@ -21,4 +21,22 @@ Joke generator
 -uses joke api or other
 - could be hilarious to send a shit joke to someone like a mini game/ text thing
 
+
 Wordle solver
+- Solves wordle for you
+- use api with a shit load of words and cover as many letters as possible 
+
+Trip report log
+- Database that holds each trip
+- slot for level, hazards, name of run, ect
+- little interface for easy typing ect
+
+Etransfer email recorded
+- pulls from email and if etranfer email logs it with amount, description and time into a budget.
+
+Juggling game
+- tap x for left hand or z for right or split screen in half
+- add more juggling items to make it harder
+- 
+Fact checker 5000
+- a social media bot/or partially automated that produces viral like content of false claims by politicians, citing multiple sourcess
